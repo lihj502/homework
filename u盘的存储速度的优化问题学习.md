@@ -61,7 +61,7 @@ U盘默认存储的速度通常比较慢，但是如果我启用了windows中的
 
 [C语言缓存区详解](https://blog.csdn.net/zhao2chen3/article/details/81707805)
 
-[缓存]([https://baike.baidu.com/item/%E7%BC%93%E5%AD%98/100710?fr=aladdin](https://baike.baidu.com/item/缓存/100710?fr=aladdin))
+[缓存](https://baike.baidu.com/item/%E7%BC%93%E5%AD%98/100710?fr=aladdin)
 
 [缓冲区(buffer)与缓存(cache)](https://www.cnblogs.com/mlgjb/p/7991903.html)
 
