@@ -15,13 +15,13 @@
   margin-top: 3px;
 }
 /*把放着顶部导航栏的那些文字的盒子div转换为行内块元素，这样可以在一行排列*/
-.hangneikuai {
+.hang_nei_kuai {
   display: inline-block;
   height: 30px;
   width: 235px;
   text-align: center;
 }
-.textstyle {
+.text_style {
   font-family: FZYaoti;
   color: black;
   display: block;
@@ -33,7 +33,7 @@
 a {
   text-decoration: none;
 }
-.textstyle:hover {
+.text_style:hover {
   color: white;
 }
 .about {
@@ -66,12 +66,12 @@ a {
   background-size: 65% 90%;
   background-repeat: no-repeat;
 }
-#GKup {
+#GK_up {
   display: block;
   height: 85px;
 }
 
-.GKpicture {
+.img_GK {
   margin-left: 375px;
   margin-top: 10px;
 }
@@ -86,7 +86,7 @@ a {
   transform: scale(1.1); 
   /*css3中的按比例放大或缩小（改变括号里的相对原图片的大小的数值比例）*/
 }
-.GKbottom {
+.GK_bottom {
   width: 380px;
   height: 97px;
   margin-left: 500px;
@@ -97,10 +97,10 @@ a {
   cursor: pointer;
   transition: all 0.45s;
 }
-.GKbottom:hover {
+.GK_bottom:hover {
   transform: scale(1.05); 
 }
-.bkintroduction {
+.bk_introduction {
   width: 1100px;
   height: 224px;
   margin: 0 auto;
@@ -108,7 +108,7 @@ a {
   background-size: 100% 58%;
   background-repeat: no-repeat;
 }
-.imgintroduction {
+.img_introduction {
   width: 450px;
   height: 100px;
   background-image: url(https://gitee.com/gritandsea/picture/raw/master/img/介绍.png);
@@ -119,20 +119,20 @@ a {
   top: 100px;
 }
 /*totalstyle样式应用于introduct板块共计四个小块的总框架*/
-.totalstyle {
+.total_style {
   width: 1200px;
   height: 580px;
   margin: 0 auto;
   position: relative;
 }
-.textofprogrammer {
+.text_of_programmer {
   width: 500px;
   height: 576px;
   display: inline-block;
   position: absolute;
   left: 80px;
 }
-.monkey {
+.img_monkey {
   width: 435.2px;
   height: 576px;
   background-image: url(https://gitee.com/gritandsea/picture/raw/master/img/houzi.png);
@@ -163,11 +163,11 @@ a {
 .vacancy {
   height: 100px;
 }
-.imgproduce {
+.img_produce {
   position: absolute;
   left: 60px;
 }
-.textofproduct {
+.text_of_product {
   width: 560px;
   height: 576px;
   display: inline-block;
@@ -187,7 +187,7 @@ a {
   font-size: 25px;
   font-family: FZYaoti;
 }
-.textofai {
+.text_of_ai {
   width: 500px;
   height: 576px;
   display: inline-block;
@@ -209,7 +209,7 @@ a {
   font-size: 25px;
   font-family: FZYaoti;
 }
-.imgai {
+.img_ai {
   position: absolute;
   left: 550px;
 }
@@ -219,11 +219,11 @@ a {
 .vacancy2 {
   height: 80px;
 }
-.imgsafety {
+.img_safety {
   position: absolute;
   left: 66px;
 }
-.textofsafety {
+.text_of_safety {
   width: 520px;
   height: 576px;
   display: inline-block;
@@ -248,26 +248,26 @@ a {
 .vacancy3 {
   height: 50px;
 }
-.aboutus1 {
+.about_us1 {
   width: 1000px;
   height: 100px;
   margin: 0 auto;
   position: relative;
 }
-.imgtopleft {
+.img_top_left {
   position: absolute;
   top: 50px;
 }
-.imgaboutus {
+.img_about_us {
   position: absolute;
   left: 360px;
 }
-.imgtopright {
+.img_top_right {
   position: absolute;
   right: 0;
   top: 50px;
 }
-.aboutus2 {
+.about_us2 {
   width: 1100px;
   height: 450px;
   margin: 0 auto;
@@ -277,7 +277,7 @@ a {
   position: absolute;
   top: 210px;
 }
-.aboutus3 {
+.about_us3 {
   width: 190px;
   height: 350px;
   display: inline-block;
@@ -286,27 +286,27 @@ a {
   font-family: FZYaoti;
   position: relative;
 }
-.aboutus4 {
+.about_us4 {
   position: absolute;
   top: 27px;
   left: 170px;
 }
-.aboutus5 {
+.about_us5 {
   position: absolute;
   top: 27px;
   left: 437px;
 }
-.aboutus6 {
+.about_us6 {
   position: absolute;
   top: 27px;
   left: 700px;
 }
-.imgdiversity {
+.img_diversity {
   position: absolute;
   top: 15px;
   left: 30px;
 }
-.textofdiversity {
+.text_of_diversity {
   width: 150px;
   font-family: FZYaoti;
   font-size: 18px;
@@ -316,12 +316,12 @@ a {
   /*将文本内的文字进行居中对齐，否则样式不匹配*/
   text-align: center;
 }
-.imgspeech {
+.img_speech {
   position: absolute;
   top: 15px;
   left: 30px;
 }
-.textofspeech {
+.text_of_speech {
   width: 150px;
   font-family: FZYaoti;
   font-size: 18px;
@@ -330,12 +330,12 @@ a {
   left: 20px;
   text-align: center;
 }
-.imgtime {
+.img_time {
   position: absolute;
   top: 15px;
   left: 30px;
 }
-.textoftime {
+.text_of_time {
   width: 150px;
   font-family: FZYaoti;
   font-size: 18px;
@@ -344,7 +344,7 @@ a {
   left: 20px;
   text-align: center;
 }
-.imgbutterfly {
+.img_butterfly {
   position: absolute;
   bottom: 25px;
   right: 70px;
@@ -355,58 +355,58 @@ a {
   margin: 0 auto;
   position: relative;
 }
-.imgbottomright {
+.img_bottom_right {
   position: absolute;
   right: 0;
   top: 0;
 }
-.biggestcontactus {
+.biggest_contact_us {
   width: 1100px;
   height: 650px;
   position: relative;
   margin: 0 auto;
 }
-.imgcontactus {
+.img_contact_us {
   position: absolute;
   top: 10px;
   left: 400px;
 }
-.imgleaf {
+.img_leaf {
   position: absolute;
   top: 5px;
   left: 270px;
 }
-.imglefttree {
+.img_left_tree {
   position: absolute;
   left: 0;
   top: 100px;
 }
-.imgrighttree {
+.img_right_tree {
   position: absolute;
   right: 0;
   top: 50px;
 }
-.frameofcontactus1 {
+.frame_of_contact_us1 {
   width: 730px;
   height: 300px;
   position: absolute;
   left: 180px;
   top: 150px;
 }
-.textofcontactus {
+.text_of_contact_us {
   font-family: FZYaoti;
   color: #45645a;
   font-size: 19.5px;
   line-height: 39px;
 }
-.frameofcontactus2 {
+.frame_of_contact_us2 {
   width: 550px;
   height: 39.5px;
   position: absolute;
   top: 420px;
   left: 200px;
 }
-.buttonofcontactus {
+.button_of_contact_us {
   width: 128px;
   height: 39.5px;
   border-radius: 13.5px;
@@ -417,18 +417,18 @@ a {
   position: relative;
   transition: all 0.5s;
 }
-.buttonofcontactus:hover {
+.button_of_contact_us:hover {
   background-color: white;
   transform: scale(1.1);
 }
-.textofbuttonstyle {
+.text_of_button_style {
   font-family: FZYaoti;
   color: #fff;
   font-size: 25px;
   text-decoration: none;
   transition: all 0.5s;
 }
-.buttonofcontactus:hover .textofbuttonstyle {
+.button_of_contact_us:hover .text_of_button_style {
   transform: scale(1.02);
   color: #45645a;
 }
@@ -437,7 +437,7 @@ a {
   top: 4.2px;
   left: 14.3px;
 }
-.positionofEmail {
+.position_of_Email {
   position: absolute;
   left: 210px;
 }
@@ -446,7 +446,7 @@ a {
   top: 3.5px;
   left: 31px;
 }
-.positionofGithub {
+.position_of_Github {
   position: absolute;
   right: 0;
 }
@@ -455,101 +455,101 @@ a {
   top: 4px;
   left: 32px;
 }
-.outerofmore {
+.outer_of_more {
   width: 1263.33px;
   position: relative;
   height: 65px;
 }
-.imgmore {
+.img_more {
   position: absolute;
   top: 0;
   right: 285px;
 }
-.frameofmoreimg {
+.frame_of_more_img {
   width: 1263.33px;
   height: 1000px;
   background-color: #8dc6ff;
 }
-.textofmore {
+.text_of_more {
   width: 795px;
   height: 900px;
   position: absolute;
   top: 5120px;
   left: 250px;
 }
-.imgs {
+.img_s {
   position: absolute;
   top: 5120px;
   left: -80px;
 }
-.imge {
+.img_e {
   position: absolute;
   top: 5250px;
   right: 0;
 }
-.imgempty1 {
+.img_empty1 {
   position: absolute;
   top: 5350px;
   left: 80px;
 }
-.imgempty2 {
+.img_empty2 {
   position: absolute;
   top: 5470px;
   right: 130px;
 }
-.img1 {
+.img_1 {
   position: absolute;
   top: 5460px;
   left: -100px;
 }
-.imgg {
+.img_g {
   position: absolute;
   top: 5520px;
   right: -25px;
 }
-#textoutermore1 {
+#text_outer_more1 {
   width: 1263.33px;
   font-family: FZYaoti;
   font-size: 23px;
   line-height: 41.5px;
 }
-#textoutermore2 {
+#text_outer_more2 {
   width: 1263.33px;
   font-family: FZYaoti;
   font-size: 23px;
   line-height: 41.5px;
 }
-#textoutermore3 {
+#text_outer_more3 {
   width: 1263.33px;
   font-family: FZYaoti;
   font-size: 23px;
   line-height: 41.5px;
 }
-#textoutermore4 {
+#text_outer_more4 {
   width: 1263.33px;
   font-family: FZYaoti;
   font-size: 23px;
   line-height: 41.5px;
 }
-#textoutermore5 {
+#text_outer_more5 {
   width: 1263.33px;
   font-family: FZYaoti;
   font-size: 23px;
   line-height: 41.5px;
 }
-#textoutermore6 {
+#text_outer_more6 {
   width: 1263.33px;
   font-family: FZYaoti;
   font-size: 23px;
   line-height: 41.5px;
 }
-#textoutermore7 {
+#text_outer_more7 {
   width: 1263.33px;
   font-family: FZYaoti;
   font-size: 23px;
   line-height: 43px;
 }
-#texttitleofmore {
+#text_title_of_more {
   color: white;
   font-size: 24px;
   line-height: 65.5px;
@@ -558,7 +558,7 @@ a {
   height: 64px;
   cursor: pointer;
 }
-#textinnerofmore {
+#text_inner_of_more {
  /*隐藏这个类对应的元素*/
   display: none;
   position: absolute;
@@ -567,88 +567,88 @@ a {
   line-height: 49px;
   transition: all 0.8s;
 }
-#textoutermore1:hover {
+#text_outer_more1:hover {
   transform: scale(1);
   height: 146.667px;
 }
 /*如果外部最大的盒子设置了hover，那么就可以利用下面格式相同的语句操纵这个盒子内部的各个样式的改变*/
-#textoutermore1:hover #textinnerofmore {
+#text_outer_more1:hover #text_inner_of_more {
  /*显示这个类对应的元素*/
   display: block;
 }
-#textoutermore1:hover #texttitleofmore {
+#text_outer_more1:hover #text_title_of_more {
   background-color: white;
   opacity: 0.35;
   color: blue;
 }
-#textoutermore2:hover {
+#text_outer_more2:hover {
   transform: scale(1);
   height: 248px;
 }
-#textoutermore2:hover #textinnerofmore {
+#text_outer_more2:hover #text_inner_of_more {
   display: block;
 }
-#textoutermore2:hover #texttitleofmore {
+#text_outer_more2:hover #text_title_of_more {
   background-color: white;
   opacity: 0.35;
   color: blue;
 }
-#textoutermore3:hover {
+#text_outer_more3:hover {
   transform: scale(1);
   height: 400px;
 }
-#textoutermore3:hover #textinnerofmore {
+#text_outer_more3:hover #text_inner_of_more {
   display: block;
 }
-#textoutermore3:hover #texttitleofmore {
+#text_outer_more3:hover #text_title_of_more {
   background-color: white;
   opacity: 0.35;
   color: blue;
 }
-#textoutermore4:hover {
+#text_outer_more4:hover {
   transform: scale(1);
   height: 298.67px;
 }
-#textoutermore4:hover #textinnerofmore {
+#text_outer_more4:hover #text_inner_of_more {
   display: block;
 }
-#textoutermore4:hover #texttitleofmore {
+#text_outer_more4:hover #text_title_of_more {
   background-color: white;
   opacity: 0.35;
   color: blue;
 }
-#textoutermore5:hover {
+#text_outer_more5:hover {
   transform: scale(1);
   height: 333.33px;
 }
-#textoutermore5:hover #textinnerofmore {
+#text_outer_more5:hover #text_inner_of_more {
   display: block;
 }
-#textoutermore5:hover #texttitleofmore {
+#text_outer_more5:hover #text_title_of_more {
   background-color: white;
   opacity: 0.35;
   color: blue;
 }
-#textoutermore6:hover {
+#text_outer_more6:hover {
   transform: scale(1);
   height: 333.33px;
 }
-#textoutermore6:hover #textinnerofmore {
+#text_outer_more6:hover #text_inner_of_more {
   display: block;
 }
-#textoutermore6:hover #texttitleofmore {
+#text_outer_more6:hover #text_title_of_more {
   background-color: white;
   opacity: 0.35;
   color: blue;
 }
-#textoutermore7:hover {
+#text_outer_more7:hover {
   transform: scale(1);
   height: 346.67px;
 }
-#textoutermore7:hover #textinnerofmore {
+#text_outer_more7:hover #text_inner_of_more {
   display: block;
 }
-#textoutermore7:hover #texttitleofmore {
+#text_outer_more7:hover #text_title_of_more {
   background-color: white;
   opacity: 0.35;
   color: blue;
