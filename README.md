@@ -1,7 +1,7 @@
 # Tasks
 
-1. **阶段一**  [Markdown学习笔记](https://github.com/lihj502/Tasks/blob/main/%E9%98%B6%E6%AE%B5%E4%B8%80%20Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
-2. **阶段二**  [GitHub和git的学习笔记](https://github.com/lihj502/Tasks/blob/main/%E9%98%B6%E6%AE%B5%E4%BA%8CGitHub%E5%92%8Cgit%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
+1. **阶段一**  [格式更改及部分内容增添之Markdown学习笔记](https://github.com/lihj502/Tasks/blob/main/%E6%A0%BC%E5%BC%8F%E6%9B%B4%E6%94%B9%E5%8F%8A%E9%83%A8%E5%88%86%E5%86%85%E5%AE%B9%E5%A2%9E%E6%B7%BB%E4%B9%8BMarkdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
+2. **阶段二**  [格式更改之GitHub和git学习笔记](https://github.com/lihj502/Tasks/blob/main/%E6%A0%BC%E5%BC%8F%E6%9B%B4%E6%94%B9%E4%B9%8BGitHub%E5%92%8Cgit%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
 3. **阶段三**  
     - [格式及部分内容修改之HTML学习笔记](https://github.com/lihj502/Tasks/blob/main/%E6%A0%BC%E5%BC%8F%E5%8F%8A%E9%83%A8%E5%88%86%E5%86%85%E5%AE%B9%E4%BF%AE%E6%94%B9%E4%B9%8BHTML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)  
     - [格式及部分内容修改之css学习笔记](https://github.com/lihj502/Tasks/blob/main/%E6%A0%BC%E5%BC%8F%E5%8F%8A%E9%83%A8%E5%88%86%E5%86%85%E5%AE%B9%E4%BF%AE%E6%94%B9%E4%B9%8Bcss%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
