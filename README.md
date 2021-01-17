@@ -9,7 +9,7 @@
     - [格式及部分内容修改之easyx库学习](https://github.com/lihj502/Tasks/blob/main/%E6%A0%BC%E5%BC%8F%E5%8F%8A%E9%83%A8%E5%88%86%E5%86%85%E5%AE%B9%E4%BF%AE%E6%94%B9%E4%B9%8Beasyx%E5%BA%93%E5%AD%A6%E4%B9%A0.md)
     - [格式及部分内容修改之u盘的存储速度的优化问题学习](https://github.com/lihj502/Tasks/blob/main/%E6%A0%BC%E5%BC%8F%E5%8F%8A%E9%83%A8%E5%88%86%E5%86%85%E5%AE%B9%E4%BF%AE%E6%94%B9%E4%B9%8Bu%E7%9B%98%E7%9A%84%E5%AD%98%E5%82%A8%E9%80%9F%E5%BA%A6%E7%9A%84%E4%BC%98%E5%8C%96%E9%97%AE%E9%A2%98%E5%AD%A6%E4%B9%A0.md)
     - [格式及部分内容修改之图床搭建搭建学习](https://github.com/lihj502/Tasks/blob/main/%E6%A0%BC%E5%BC%8F%E5%8F%8A%E9%83%A8%E5%88%86%E5%86%85%E5%AE%B9%E4%BF%AE%E6%94%B9%E4%B9%8B%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E6%90%AD%E5%BB%BA%E5%AD%A6%E4%B9%A0.md)  
-7. **1月4日例会后学长在考核群内发出的问题学习** [来自学长的灵魂拷问之c语言题目学习笔记](https://github.com/lihj502/Tasks/blob/main/%E6%9D%A5%E8%87%AA%E5%AD%A6%E9%95%BF%E7%9A%84%E7%81%B5%E9%AD%82%E6%8B%B7%E9%97%AE%E4%B9%8Bc%E8%AF%AD%E8%A8%80%E9%A2%98%E7%9B%AE%E8%AE%B0%E5%BD%95.md)  
+7. **1月4日例会后学长在考核群内发出的问题学习** [格式及部分内容修改之来自学长的灵魂拷问c语言题目学习笔记](https://github.com/lihj502/Tasks/blob/main/%E6%A0%BC%E5%BC%8F%E5%8F%8A%E9%83%A8%E5%88%86%E5%86%85%E5%AE%B9%E4%BF%AE%E6%94%B9%E4%B9%8B%E6%9D%A5%E8%87%AA%E5%AD%A6%E9%95%BF%E7%9A%84%E7%81%B5%E9%AD%82%E6%8B%B7%E9%97%AE.md)  
 8. **阶段四** [招新网站复现](https://lihj502.github.io)  
 **PS:** 这次是网址链接了，不是那个代码的链接了  
 ps.此后将逐渐添加学习的内容
