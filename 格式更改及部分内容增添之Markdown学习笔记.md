@@ -1,6 +1,21 @@
 # 阶段一 Markdown学习笔记
 
-[toc]
+   * [阶段一 Markdown学习笔记](#阶段一-markdown学习笔记)
+      * [一、Markdown初印象](#一markdown初印象)
+         * [1.1 Markdown概述](#11-markdown概述)
+         * [1.2 Markdown工作过程](#12-markdown工作过程)
+         * [1.3 Markdown应用场景](#13-markdown应用场景)
+      * [二、Typora~轻便简洁的Markdown编辑器相关使用事宜](#二typora轻便简洁的markdown编辑器相关使用事宜)
+      * [三、Markdown语法规范](#三markdown语法规范)
+               * [样式流程图](#样式流程图)
+               * [带样式时序流程图](#带样式时序流程图)
+            * [甘特图](#甘特图)
+      * [四、Typora快捷键整理](#四typora快捷键整理)
+      * [五、学习Markdown语法以及其编辑器器Typora过程中所参考的网站及教程](#五学习markdown语法以及其编辑器器typora过程中所参考的网站及教程)
+      * [六、Markdown以及其编辑器Typora的初步学习的心得总结](#六markdown以及其编辑器typora的初步学习的心得总结)
+         * [6.1 个人心得体会](#61-个人心得体会)
+         * [6.2 在初步学习Markdown以后目前依然存在的问题](#62-在初步学习markdown以后目前依然存在的问题)
+         * [6.3 总结](#63-总结)
 
 ## 一、Markdown初印象
 
@@ -164,10 +179,10 @@ def f(x):
 
 ​     三个或者三个以上的 - 或者 * 都可以。
 
-```
+
 ---
 ***
-```
+
 
 ​	分割线效果如下
 
@@ -216,8 +231,6 @@ def f(x):
   
   ```
 [临安](https://www.namedq.com/ht/262315.html)
-  ```
-
   行内式链接插入效果如下
 
   [临安](https://www.namedq.com/ht/262315.html)
