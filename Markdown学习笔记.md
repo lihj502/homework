@@ -1,30 +1,35 @@
 # 阶段一 Markdown学习笔记
 
-==索引==
+   * [阶段一 Markdown学习笔记](#阶段一-markdown学习笔记)
+      * [一、Markdown初印象](#一markdown初印象)
+         * [1.1 Markdown概述](#11-markdown概述)
+         * [1.2 Markdown工作过程](#12-markdown工作过程)
+         * [1.3 Markdown应用场景](#13-markdown应用场景)
+      * [二、Typora~轻便简洁的Markdown编辑器相关使用事宜](#二typora轻便简洁的markdown编辑器相关使用事宜)
+      * [三、Markdown语法规范](#三markdown语法规范)  
+         * [样式流程图](#样式流程图)  
+         * [带样式时序流程图](#带样式时序流程图)  
+         * [甘特图](#甘特图)  
+      * [四、Typora快捷键整理](#四typora快捷键整理)
+      * [五、学习Markdown语法以及其编辑器器Typora过程中所参考的网站及教程](#五学习markdown语法以及其编辑器器typora过程中所参考的网站及教程)
+      * [六、Markdown以及其编辑器Typora的初步学习的心得总结](#六markdown以及其编辑器typora的初步学习的心得总结)
+         * [6.1 个人心得体会](#61-个人心得体会)
+         * [6.2 在初步学习Markdown以后目前依然存在的问题](#62-在初步学习markdown以后目前依然存在的问题)
+         * [6.3 总结](#63-总结)
+      * [七、typora的彩蛋（学长指点）](#七typora的彩蛋（学长指点）)
 
-[toc]
+## 一、Markdown初印象
 
----
+### 1.1 Markdown概述
 
----
+> Markdown是一种[轻量级标记语言](https://baike.baidu.com/item/轻量级标记语言/52671915)，创始人为约翰·格鲁伯（英语：John Gruber）。 它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档。这种语言吸收了很多在电子邮件中已有的纯文本标记的特性。
 
-
-
-## Markdown初印象
-
-
-
-### Markdown概述
-
-> *Markdown是一种[轻量级标记语言](https://baike.baidu.com/item/轻量级标记语言/52671915)，创始人为约翰·格鲁伯（英语：John Gruber）。 它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档。这种语言吸收了很多在电子邮件中已有的纯文本标记的特性。*
-
-> *由于Markdown的轻量化、易读易写特性，并且对于图片，图表、数学式都有支持，目前许多网站都广泛使用Markdown来撰写帮助文档或是用于论坛上发表消息。 如[GitHub](https://baike.baidu.com/item/GitHub/10145341)、[Reddit](https://baike.baidu.com/item/Reddit/1272010)、[Diaspora](https://baike.baidu.com/item/Diaspora/10726893)、[Stack Exchange](https://baike.baidu.com/item/Stack Exchange/13777796)、[OpenStreetMap](https://baike.baidu.com/item/OpenStreetMap/3171606) 、[SourceForge](https://baike.baidu.com/item/SourceForge/6562141)、[简书](https://baike.baidu.com/item/简书/5782216)等，甚至还能被使用来撰写电子书 [^1]
+> 由于Markdown的轻量化、易读易写特性，并且对于图片，图表、数学式都有支持，目前许多网站都广泛使用Markdown来撰写帮助文档或是用于论坛上发表消息。 如[GitHub](https://baike.baidu.com/item/GitHub/10145341)、[Reddit](https://baike.baidu.com/item/Reddit/1272010)、[Diaspora](https://baike.baidu.com/item/Diaspora/10726893)、Stack Exchange、[OpenStreetMap](https://baike.baidu.com/item/OpenStreetMap/3171606) 、[SourceForge](https://baike.baidu.com/item/SourceForge/6562141)、[简书](https://baike.baidu.com/item/简书/5782216)等，甚至还能被使用来撰写电子书 。
 >
-> [^1]:*本文段摘自百度百科*
 
 
 
-### Markdown工作过程
+### 1.2 Markdown工作过程
 
 1. 创建.md扩展名文件
 2. 在Markdown应用程序打开文件
@@ -33,36 +38,32 @@
 
 
 
-### Markdown应用场景
+### 1.3 Markdown应用场景
 
 1. 使用Markdown创建网站内容
 2. 使用Markdown语言编辑基本文档
 
----
-
----
 
 
+## 二、Typora~轻便简洁的Markdown编辑器相关使用事宜
 
-## Typora~轻便简洁的Markdown编辑器相关使用事宜
+1. 首先要打开文件—**偏好设置**—勾选上标、下标、高亮、图表选项（使得其相应功能可以显示）
 
-1. 首先要打开文件—偏好设置—勾选上标、下标、高亮、图表选项（使得其相应功能可以显示）
-
-2. 设置完成以后记得==重启==Typora
+2. 设置完成以后记得**重启Typora**
 
 3. 如果想要在Typora中写下演示的事例，但是又不想被编辑器识别，我通过将所写的东西放入代码块中解决此问题
 
-4.  tip:可以根据个人喜好决定是否关闭严格模式[^2]
+4.  **tip:** 可以根据个人喜好决定是否关闭严格模式
 
-   [^2]:严格模式：在严格模式下，如果要输入**标题 ，**则必须在字符之后设置空格；在严格模式下，如果要在列表项中创建新块/段落，则必须输入足够的空白缩进，使新段落与上一段严格对齐。ps. 在我写笔记的过程中发现，关闭严格模式，提高Typora的容错率，确实可以加快编写的速度。
+   **严格模式:** 在严格模式下，如果要输入**标题 ，**则必须在字符之后设置空格；在严格模式下，如果要在列表项中创建新块/段落，则必须输入足够的空白缩进，使新段落与上一段严格对齐。
+   
+   **ps:** 在我写笔记的过程中发现，关闭严格模式，提高Typora的容错率，确实可以加快编写的速度。
+   
+   但是我最终的建议是不建议关闭严格模式，因为关闭严格模式后，markdown语法与GitHub上的不兼容，很多效果没有正常显示
 
----
-
----
 
 
-
-## Markdown语法规范
+## 三、Markdown语法规范
 
 1. **分级标题**
 
@@ -179,10 +180,10 @@ def f(x):
 
 ​     三个或者三个以上的 - 或者 * 都可以。
 
-```
+
 ---
 ***
-```
+
 
 ​	分割线效果如下
 
@@ -231,8 +232,6 @@ def f(x):
   
   ```
 [临安](https://www.namedq.com/ht/262315.html)
-  ```
-
   行内式链接插入效果如下
 
   [临安](https://www.namedq.com/ht/262315.html)
@@ -241,10 +240,10 @@ def f(x):
   
     参考式链接分为两部分，文中的写法 [链接文字][链接标记]，在文本的任意位置添加[链接标记]:链接地址。
   
-    ```
+  ```
     我是从[Google][1]上搜索到的[临安][2]。
-    [1]: http://www.google.com 
-    [2]: https://www.namedq.com/ht/262315.html 
+  [1]: http://www.google.com
+  [2]: https://www.namedq.com/ht/262315.html
     ```
   
   参考式链接插入效果如下
@@ -253,6 +252,7 @@ def f(x):
   
   [1]:http://www.google.com
   [2]:https://www.namedq.com/ht/262315.html
+    ```
 
 9. **高亮**（需要勾选扩展语法）
 
@@ -264,13 +264,15 @@ def f(x):
 
    ==高亮==
 
+   **PS:** 不推荐使用，GitHub上无法显示
+
 10. **下划线**
 
     ```
     <u>带下划线文本</u>
     ```
 
-    下划线效果如下
+    下划线效果如下：
 
     <u>带下划线文本</u>
 
@@ -280,7 +282,7 @@ def f(x):
     H<sub>2</sub>o
     ```
 
-    上标效果如下
+    上标效果如下：
 
     H<sub>2</sub>o
 
@@ -290,19 +292,19 @@ def f(x):
     CO<sub>2</sub>
     ```
 
-    下标效果如下
+    下标效果如下：
 
     CO<sub>2</sub>
 
 13. **表情符号**
 
-    加入：所需表情的英文：即可完成表情符号的输入
+    加入所需表情的英文：即可完成表情符号的输入
 
     ```
     :smile:
     ```
 
-    表情符号效果如下
+    表情符号效果如下：
 
     :smile:
 
@@ -603,40 +605,63 @@ Note left of 对象A: 对象A的描述(提示)
 
 
 
-## Typora快捷键整理
+## 四、Typora快捷键整理
 
 - 选中一整行：ctrl+l
+
 - 选中单词：ctrl+d
+
 - 选中相同格式的文字：ctrl+e
+
 - 跳转到文章开头：ctrl+home
+
 - 跳转到文章结尾：ctrl+end
+
 - 搜索：ctrl+f
+
 - 替换：ctrl+h
+
 - 代码块：ctrl+alt+f
+
 - 加粗：ctrl+b
+
 - 倾斜：ctrl+i
+
 - 下划线：ctrl+u
+
 - 删除线：alt+shift+5
+
 - 插入图片：直接拖动到指定位置即可或者ctrl+shift+i
+
 - 插入链接：ctrl + k
+
 - 插入表格：Ctrl+T
+
 - 插入有序列表：Ctrl+Shift+[
+
 - 插入无序列表：Ctrl+Shift+]
+
 - 插入超链接：Ctrl+K
+
 - 插入公式块：Ctrl+Shift+M
+
 - 插入引用块：Ctrl+Shift+Q
+
 - 一至六级标题：Ctrl+1–6
+
 - 提升标题级别：Ctrl+‘+’
+
 - 降低标题级别：Ctrl+‘-’
+
 - 源代码模式：Ctrl+/
 
----
+  
 
 ---
 
 
 
-## 学习Markdown语法以及其编辑器器Typora过程中所参考的网站及教程
+## 五、学习Markdown语法以及其编辑器器Typora过程中所参考的网站及教程
 
 1. 参考网站
 
@@ -657,25 +682,43 @@ Note left of 对象A: 对象A的描述(提示)
 * [Markdown保姆级教程之基础篇（Typora使用教程）](https://www.bilibili.com/video/BV1d741147k2)
 * [Markdown保姆级教程之画图篇（流程图、序列图、饼图、甘特图）](https://www.bilibili.com/video/BV1C7411V7SF?t=164)
 
----
-
----
 
 
+## 六、Markdown以及其编辑器Typora的初步学习的心得总结
 
-## Markdown以及其编辑器Typora的初步学习的心得总结
-
-### 个人心得体会
+### 6.1 个人心得体会
 
 在此次对Markdown以及其编译器Typora的初步学习过程中，才发现很多网站（如知乎、简书、CSDN等）中的博客都是用此类语法编辑的博客文章。相比较Typora与word来说，Typora的极简风格以及其由于体积小带来的快速流畅的界面初始化体验确实令我倾心。另外Typora的各种标记符号虽然简单，但是却出人意料的可以满足各种需求，并且没有那种各种细分导致用户眼花缭乱的感觉。最让我开心的是Typora的自动匹配括号、引号功能真的是太赞了:thumbsup:。
 
 在使用了GitHub以后我又注意到了Markdown的实时浏览功能，因为GitHub中浏览和源代码是分开的，需要转换过程，但是在Typora中，在我完成一行文本离开正在编辑的段落后， Markdown 标记会被自动隐藏。这样就可以根据此时的效果来看实际效果是否与预期一致，很方便就可以完成对文本编辑格式的检查。
 
-### 在初步学习Markdown以后目前依然存在的问题
+
+
+### 6.2 在初步学习Markdown以后目前依然存在的问题
 
 1. 对于Typora的公式编辑目前依然没有完全理解
+
 2. 在本地图片传输到Typora上以后一旦传输给别人如何让本地图片链接依然发挥作用可以正常查看
 
-### 总结
+   
+
+### 6.3 总结
 
 通过这一段时间对Markdown及其编辑器Typora的初步学习，掌握了一些基本的语法规范和一些基础的操作，但是依然有缺乏的地方，在未来的应用中我会继续探索Typora的应用方式，熟练操作并补足相关的知识漏洞。
+
+---
+
+
+
+## 七、typora的彩蛋（学长指点）
+
+其实应该是说.md文件的本质
+
+事实上无论是typora还是GitHub页面本质上都只是一个带有样式修饰的HTML页面，只不过是被渲染转化了
+
+**证据:**  如果使用shift+F12就可以在typora中打开开发者工具，之后就会看到它的本质就是一个前端，而且内嵌了一个类似chrome的调试工具
+
+因此html语法在markdown语法中也可以生效，比如插入图片直接使用HTML语法img也可以，然后使用height或者width来控制图片大小
+
+**PS:**  不建议使用typora中的缩放图片功能，因为typora的渲染能力比较完备，但是GitHub中就没有那么强，所以提交到GitHub上typora中的图片缩放语法无法被GitHub识别，还是建议使用HTML语法
+
